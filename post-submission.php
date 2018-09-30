@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<?php include 'nav.php' ?>
 <div class="row">
     <main>
         <h2>New Post</h2>
@@ -15,7 +16,4 @@
         <button type="submit" value="Submit">Submit</button>  
         <button type="reset" value="Reset">Reset</button>    
     </form>
-<footer>
-    <p>Contact <a href="mailto:jhartma4@lesley.edu">
-    jhartma4@lesley.edu</a></p>
-</footer>
+<?php include 'footer.php' ?>
