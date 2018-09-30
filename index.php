@@ -1,3 +1,7 @@
+<?php
+php include_once 'db_connect.php' ?>
+<?
+
 <body>
         <?php include 'header.php' ?>
         <?php include 'nav.php' ?>
@@ -18,5 +22,6 @@
                 ?>
             </ul>
         </main>
+$conn;
         <?php include 'footer.php' ?>
     </body>
