@@ -7,7 +7,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="index.php">Home</a> </li>
                         <li> About </li>
                     </ul>
                 </nav>

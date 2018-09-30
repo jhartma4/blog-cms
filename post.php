@@ -6,7 +6,7 @@
             </div>
             <nav>
                 <ul>
-                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="index.php">Home</a> </li>
                     <li> About </li>
                 </ul>
             </nav>
@@ -27,7 +27,7 @@
         <div class="sidebar">
             <ul>
                 <li>side link 1</li>
-                <li> side link 2 </li>
+                <li>side link 2 </li>
             </ul>
         </div>
     </div>

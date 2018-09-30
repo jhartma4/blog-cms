@@ -6,7 +6,7 @@
 		</div>
 		<nav>
 			<ul>
-				<li> <a href="post-submission.html">New Post</a> </li>
+				<li> <a href="post-submission.php">New Post</a> </li>
 				<li> About </li>
 			</ul>
 		</nav>
@@ -20,7 +20,7 @@
 		</div>
 		<div class="blog-body">
 			<ul>
-				<li><a href="post.html">Hello World!</a></li>
+				<li><a href="post.php">Hello World!</a></li>
 				<li>Post 2 </li>
 			</ul>
 		</div>
@@ -28,7 +28,7 @@
 	<div class="sidebar">
 		<ul>
 			<li>side link 1</li>
-			<li> side link 2 </li>
+			<li>side link 2 </li>
 		</ul>
 	</div>
 </div>
