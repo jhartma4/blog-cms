@@ -1,6 +1,4 @@
-<?php
-    include_once '/db_connect.php';
-?>
+<?php include_once 'db_connect.php'; ?>
 <!DOCTYPE html>
     <head>
         <title>My New Blog</title>
