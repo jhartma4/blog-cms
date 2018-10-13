@@ -5,7 +5,6 @@
         <link rel="stylesheet" type="text/css" href="format-new.css">
     </head>
     <body>
-$conn;
         <?php include 'header.php' ?>
         <?php include 'nav.php' ?>
         <?php
