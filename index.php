@@ -10,7 +10,7 @@ $conn;
         <?php include 'nav.php' ?>
         <?php
             function getPostTitlesFromDatabase() {
-                $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+                $postTitles = array("Post 1", "Post 2", "Post 3");
                 return $postTitles;
             }
         ?>
