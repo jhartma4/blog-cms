@@ -2,9 +2,15 @@
 <html>
     <head>
         <title>My New Blog</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+         crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="format-new.css">
+        <script src="hello.js"></script>
     </head>
     <body>
+        <button onclick="revealMessage()">Hello</button>
+        <p id="hiddenMessage" style="display:none">Hi there!</p>
         <?php include 'header.php' ?>
         <?php include 'nav.php' ?>
         <ul class="blog-list">

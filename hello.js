@@ -24,3 +24,7 @@ if (isSettled) {
 } else {
     document.write(fullName + " is not settled.");
 }
+
+function revealMessage () {
+    document.getElementById("hiddenMessage").style.display = 'block';
+}
