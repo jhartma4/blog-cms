@@ -5,7 +5,7 @@
         <h2>New Post</h2>
     </main>
 </div>
-    <form action="/action_page.php" method="get">
+    <form action="/submit-post.php" method="get">
         First name: <input type="text" name="fname"><br>
         Last name: <input type="text" name="lname"><br>
         Date: <input type="date" name="date"><br>
