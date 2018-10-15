@@ -3,7 +3,7 @@
     <head>
         <title>My New Blog</title>
         <link rel="stylesheet" type="text/css" href="format-new.css">
-        <script src="hello.js"></script>
+         // <script src="script.js"></script>
     </head>
     <body>
         <button onclick="revealMessage()">Hello</button>
