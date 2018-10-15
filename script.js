@@ -1,5 +1,3 @@
-$(document).ready(function() {
-    $("#hidden").hover(function() {
-        )
-})
-
+function revealMessage() {
+    document.getElementById("hiddenMessage").style.display = 'block';
+}

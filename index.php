@@ -1,15 +1,18 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <title>My New Blog</title>
         <link rel="stylesheet" type="text/css" href="format-new.css">
-         // <script src="script.js"></script>
+        <script src="script.js"></script>
     </head>
     <body>
+    <?php include 'header.php' ?>
+    <?php include 'nav.php' ?>
+        
         <button onclick="revealMessage()">Hello</button>
         <p id="hiddenMessage" style="display:none">Hi there!</p>
-        <?php include 'header.php' ?>
-        <?php include 'nav.php' ?>
+        
         <ul class="blog-list">
         <?php
             function getPostTitlesFromDatabase() {
