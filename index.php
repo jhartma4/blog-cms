@@ -10,6 +10,21 @@
     <?php include 'header.php' ?>
     <?php include 'nav.php' ?>
         
+    <div id="sortable-blog-list">
+    <input class="search" placeholder="Search" />
+    <button class="sort" data-sort="title">Sort</button>
+    <ul class="list">
+        <?php
+            $postTitles = getPostTitlesFromDatabase();
+            foreach($postTitles as $postTitle) {
+                echo "<li><a href='post.php?title=" . $postTitle 
+
+                    . "' class='title'>" . $postTitle . "</a></li>";
+            }
+        ?>
+    </ul>
+    </div>
+
         <button onclick="revealMessage()">Hello</button>
         <p id="hiddenMessage" style="display:none">Hi there!</p>
         
